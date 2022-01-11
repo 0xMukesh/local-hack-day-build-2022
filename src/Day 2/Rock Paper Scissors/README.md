@@ -36,4 +36,8 @@ To use the bot follow the following steps:
    ./run.sh
    ```
 
+## Demo
+
+![](./images/demo.png)
+
 Have any issues while using the bot ? Raise an issue and i'll look over it
