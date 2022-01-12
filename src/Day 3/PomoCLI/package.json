@@ -1,0 +1,32 @@
+{
+  "name": "pomocli",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A CLI application for pomodoro",
+  "main": "./bin/cli.js",
+  "bin": {
+    "pomocli": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node ./bin/cli.js",
+    "test": "node ./test/test.js"
+  },
+  "keywords": [
+    "cli",
+    "pomodoro",
+    "pomodoro-cli",
+    "nodejs",
+    "javascript",
+    "js"
+  ],
+  "author": "Kira272921",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "cli-progress": "^3.10.0",
+    "inquirer": "^8.2.0",
+    "node-notifier": "^10.0.0",
+    "shelljs": "^0.8.5",
+    "timrjs": "^3.2.1"
+  }
+}
