@@ -1,23 +1,28 @@
 {
   "name": "buildnoticli",
   "version": "1.0.0",
-  "description": "",
+  "description": "A CLI which sends notification after running a command",
   "main": "index.js",
   "bin": {
     "buildnoticli": "./bin/cli.js"
   },
   "type": "module",
   "scripts": {
-    "test1": "node ./test/test001.js",
-    "test2": "node ./test/test002.js"
+    "start": "node ./bin/cli.js"
   },
-  "keywords": [],
+  "keywords": [
+    "cli",
+    "nodejs",
+    "javascript",
+    "buildnoticli",
+    "notification",
+    "command-line-interface"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "chalk": "^5.0.0",
     "inquirer": "^8.2.0",
-    "listr": "^0.14.2",
     "node-notifier": "^10.0.0",
     "path": "^0.12.7",
     "shelljs": "^0.8.5"
