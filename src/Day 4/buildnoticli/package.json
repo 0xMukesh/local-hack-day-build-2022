@@ -1,0 +1,25 @@
+{
+  "name": "buildnoticli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "buildnoticli": "./bin/cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test1": "node ./test/test001.js",
+    "test2": "node ./test/test002.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "inquirer": "^8.2.0",
+    "listr": "^0.14.2",
+    "node-notifier": "^10.0.0",
+    "path": "^0.12.7",
+    "shelljs": "^0.8.5"
+  }
+}
