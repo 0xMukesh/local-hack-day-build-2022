@@ -5,6 +5,7 @@ import shell from 'shelljs'
 import chalk from 'chalk'
 import notifier from 'node-notifier'
 import path from 'path'
+import process from 'process'
 
 import questions from './utils/questions.js'
 
@@ -15,10 +16,11 @@ inquirer.prompt(questions).then((answers) => {
     commandArray.map((command) => {
         const runningCommand = shell.exec(command)
         if (runningCommand.code !== 0) {
-            console.log(chalk.red(chalk.bold("ERROR!")), `The ${chalk.bold(command)} command had an error while executing`)
+            console.log(chalk.bgRed(chalk.bold("ERROR!") + chalk.redBright(` The ${chalk.bold(command)} command had an error while executing`)))
+            process.exit(1)
         }
         else {
-            console.log(chalk.green(chalk.bold("SUCCESS!"), `The ${chalk.bold(command)} command had been successfully completed`))
+            console.log(chalk.green(chalk.bold("SUCCESS!") + chalk.greenBright`The ${chalk.bold(command)} command had been successfully completed`))
         }
     })
     notifier.notify({
