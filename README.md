@@ -11,4 +11,7 @@ This repository contains all the projects I have built during Local Hack Day Bui
 ## Day 3
 
 - [Clickocraft](https://github.com/Kira272921/local-hack-day-build-2022/tree/main/src/Day%203/Clickocraft)
-- [PomoCLI](https://github.com/Kira272921/local-hack-day-build-2022/tree/main/src/Day%203/PomoCLI)
+
+## Day 4
+
+- [buildnoticli](https://github.com/Kira272921/local-hack-day-build-2022/tree/main/src/Day%204/buildnoticli)
