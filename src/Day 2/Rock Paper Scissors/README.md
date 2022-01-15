@@ -15,6 +15,8 @@ To use the bot follow the following steps:
 2. Navigate into the `Rock Paper Scissors` directory
 
    ```bash
+   cd src
+   cd "Day 2"
    cd "Rock Paper Scissors"
    ```
 
