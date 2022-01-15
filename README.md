@@ -15,3 +15,8 @@ This repository contains all the projects I have built during Local Hack Day Bui
 ## Day 4
 
 - [buildnoticli](https://github.com/Kira272921/local-hack-day-build-2022/tree/main/src/Day%204/buildnoticli)
+
+## Day 5 
+
+- [Blahaj bot](https://github.com/AtulACleaver/Blahaj-Bot)
+- [Image recognizing bot](https://github.com/Kira272921/local-hack-day-build-2022/tree/main/src/Day%205/Image%20recognizing%20bot)
